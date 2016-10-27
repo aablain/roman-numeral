@@ -3,12 +3,12 @@ function converter(numberInput) {
   debugger;
   var ones = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
   var tens = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"]
-  var hundreds = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "MC"]
+  var hundreds = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"]
   var thousands = ["", "M", "MM", "MMM"]
 
   if (numberInput > 3999 || numberInput < 1) {
     alert("Please insert a number between 1 - 3,999");
-  }
+  } else {
   splitUp = numberInput.toString().split("")
   splitUp.map(function() {
     return parseInt;
@@ -30,6 +30,7 @@ function converter(numberInput) {
   }
   var finalNumbers = splitUp.join("");
   return finalNumbers;
+}
 };
 
 //User Interface Logic
