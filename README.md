@@ -3,7 +3,7 @@ Specs:
   Example Input: 4001
   Example Output: dne
 
-2. The program will take the value of the number and convert it to symbols.
+2. .
   Example Input: 2
   Example Output: II
 
