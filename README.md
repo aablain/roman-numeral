@@ -3,18 +3,20 @@ Specs:
   Example Input: 4001
   Example Output: dne
 
-2. .
-  Example Input: 2
-  Example Output: II
+2. The program takes the number and turns it into a string and then an array
+  exampleInput: 2
+  Example Output: ["2"]
 
-3. The program doesn't allow three of the same symbols in a row.
+4. Takes the index(s) of the array and decides it's corresponding roman numeral value.
+
+5. The program doesn't allow three of the same symbols in a row.
   Example Input: 4
   Example Output: IV
 
-4. The program instead uses subtraction for 4, and 9  numbers.
+6. The program instead uses subtraction for 4, and 9  numbers.
   Example Input: 90
   Example Output: XC
 
-5.  The program take one, tens, hundreds, and thousands, and separates them.
+7.  The program take one, tens, hundreds, and thousands, and separates them.
   Example Input: 99
   Example Output: XCIX (not IC)
